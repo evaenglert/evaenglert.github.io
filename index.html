@@ -5,10 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script defer src="https://friconix.com/cdn/friconix.js"></script>
   <title>Franciska Englert | Portfolio</title>
 </head>
 <body>
-  <header>
+  <header id="home">
 
     <!-- HEADER -->
     <nav>
@@ -33,7 +34,7 @@
     <div class="hero">
       <h1 class="h1"> Franciska Englert</h1>
       <p class="student" id="student">
-        Data Analyst and Software Engineer
+        Software Engineer
       </p>
       <div class="hero-btns">
         <a href="#about" class="about" id="about-btn">About me</a>
@@ -45,13 +46,147 @@
     <div class="socials" id="socials">
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/franciskaenglert/" class="linkedin">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/franciskaenglert/" class="linkedin">LinkedIn<i class="fi-snsuxl-linkedin"></i></a>
         </li>
         <li>
-          <a href="https://github.com/evaenglert" class="github">GitHub</a>
+          <a href="https://github.com/evaenglert" class="github">GitHub<i class="fi-snsuxl-github-alt"></i></a>
         </li>
       </ul>
     </div>
+
+
+    <div class="hamburger-menu" id="hamburger-menu">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+          </div>
     </header>
+
+
+    <!-- ABOUT ME -->
+    <section id="about">
+      <div class="container-about">
+        <div class="about-me" id="about-me">
+          <h2><span>About</span> Me</h2>
+          <p>
+            I graduated from university in 2019 with a Maths degree and became more
+            and more interested in tech over the past few years. I did a Data Science bootcamp
+            in 2020 and started working as a Data Analyst at a web3 company. I also started self-learning
+            web development on the side with the help of online resources such as The Odin Project. I am
+            very passionate about teaching as well and help a bootcamp as a teaching assistant on Saturdays.
+            Please find below some projects I have worked on in the past and feel free to reach out to me!
+          </p>
+        </div>
+        <div class="student-img">
+          <img src="./images/hello.svg" height="250px" width="350px" alt="hello" />
+        </div>
+      </div>
+    </section>
+
+  <!-- PROJECT SHOWCASE -->
+  <section id="projects">
+    <div class="header" id="header">
+      <h2>My <span>Projects</span></h2>
+    </div>
+
+    <div class="container reveal">
+      <div class="card" id="card">
+        <div class="card-img card13"></div>
+        <div class="card-text">
+          <h2>ToDo List App</h2>
+          <p>A todo list app clone based on Todoist</p>
+          <br />
+          <p class="made-with">
+            Made with: Webpack, JavaScript, HTML, CSS
+          </p>
+          <br />
+        </div>
+        <div class="card-buttons">
+          <a href="https://evaenglert.github.io/todolist/" target="_blank" class="demo"><i class="far fa-eye"></i>
+            Demo</a>
+          <a href="https://github.com/evaenglert/todolist" target="_blank" class="code"><i class="fas fa-code"></i>
+            Code</a>
+        </div>
+      </div>
+
+      <div class="card" id="card">
+        <div class="card-img card12"></div>
+        <div class="card-text">
+          <h2>Tic Tac Toe</h2>
+          <p></p>
+          <br />
+          <p class="made-with">
+            Made with:
+          </p>
+          <br />
+        </div>
+        <div class="card-buttons">
+          <a href="https://evaenglert.github.io/tic-tac-toe/" target="_blank" class="demo"><i class="far fa-eye"></i>
+            Demo</a>
+          <a href="https://github.com/evaenglert/tic-tac-toe" target="_blank" class="code"><i class="fas fa-code"></i>
+            Code</a>
+        </div>
+      </div>
+
+      <div class="card" id="card">
+        <div class="card-img card11"></div>
+        <div class="card-text">
+          <h2>Etch a Sketch</h2>
+          <p>Etch a Sketch game. So nostalgic!</p>
+          <br />
+          <p class="made-with">
+            Made with:
+          </p>
+          <br />
+        </div>
+        <div class="card-buttons">
+          <a href="https://evaenglert.github.io/top/etch-a-sketch/index.html" target="_blank" class="demo"><i class="far fa-eye"></i>
+            Demo</a>
+          <a href="https://github.com/evaenglert/top/tree/master/etch-a-sketch" target="_blank" class="code"><i
+              class="fas fa-code"></i> Code</a>
+        </div>
+      </div>
+
+      <div class="card" id="card">
+        <div class="card-img card1"></div>
+        <div class="card-text">
+          <h2>Calculator</h2>
+          <p>Simple calculator you can use for your maths home work</p>
+          <br />
+          <p class="made-with">
+            Made with:
+          </p>
+          <br />
+        </div>
+        <div class="card-buttons">
+          <a href="https://evaenglert.github.io/top/calculator/index.html" target="_blank" class="demo"><i class="far fa-eye"></i>
+            Demo</a>
+          <a href="https://github.com/evaenglert/top/tree/master/calculator" target="_blank" class="code"><i class="fas fa-code"></i>
+            Code</a>
+        </div>
+      </div>
+
+      <div class="card" id="card">
+        <div class="card-img card2"></div>
+        <div class="card-text">
+          <h2>Simple Dashboard Layout</h2>
+          <p> A simple dashboard layout </p>
+          <br />
+          <p class="made-with">
+            Made with:
+          </p>
+          <br />
+        </div>
+        <div class="card-buttons">
+          <a href="https://evaenglert.github.io/top/dashboard/index.html" target="_blank" class="demo"><i class="far fa-eye"></i>
+            Demo</a>
+          <a href="https://github.com/evaenglert/top/tree/master/dashboard" target="_blank" class="code"><i class="fas fa-code"></i>
+            Code</a>
+        </div>
+      </div>
+
+  </section>
+
+
 </body>
 </html>
