@@ -506,3 +506,58 @@ header .socials ul li a:hover {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
+
+#projects .container .card12 {
+  background: url(./images/cardtictac.png);
+}
+
+#projects .container .card13 {
+  background: url(./images/tasktodo.png);
+}
+
+#projects .container .card11 {
+  background: url(./images/etchasketch.png);
+}
+
+
+#projects .container .card1 {
+  background: url(./images/calculator2.png);
+}
+
+
+#projects .container .card2 {
+  background: url(./images/dashboard.png);
+}
+/*
+#projects .container .card6 {
+  background: url(../images/todo-list.png);
+}
+
+#projects .container .card7 {
+  background: url(../images/tic-tac-toe.png);
+}
+
+#projects .container .card8 {
+  background: url(../images/restaurant.png);
+}
+
+#projects .container .card9 {
+  background: url(../images/library.png);
+}
+
+#projects .container .card10 {
+  background: url(../images/messageboard.png);
+}
+
+#projects .container .card11 {
+  background: url(../images/inventory-application.png);
+}
+
+#projects .container .card12 {
+  background: url(../images/members-only.png);
+}
+
+#projects .container .card13 {
+  background: url(../images/mern-blog.png);
+}  */
