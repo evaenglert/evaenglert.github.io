@@ -508,6 +508,10 @@ header .socials ul li a:hover {
 }
 
 
+#projects .container .card14 {
+  background: url(./images/sign-lang.gif);
+}
+
 #projects .container .card12 {
   background: url(./images/cardtictac.png);
 }
