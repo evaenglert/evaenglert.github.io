@@ -2,16 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 :root {
-  --pink: #fe8686;
-  --dark-pink: #ae5e5e;
-  --blue: #b10097;
-  --gray: rgb(170, 170, 170);
-  --dark-gray: #181a1b;
-  --dark-blue: #002333;
-  --text-color: #fff;
-  --lighter-text: rgb(219, 219, 219);
-  --card-background: #2e3031;
-  --skills-span: rgb(200, 200, 200);
+
+    --pink:#a8d0e6;
+      --dark-pink: #f8e9a1;
+      --blue: #a8d0e6;
+      --gray: rgb(170, 170, 170);
+      --dark-gray: #f2f4f7;
+      --dark-blue: #a8d0e6;
+
+    --text-color: #469ec6;
+      --lighter-text: rgb(20, 20, 20);
+      --title-text: #ffffff;
+      --card-background: #2e3031;
+      --card-container-background: #000000;
+      --skills-span: rgb(200, 200, 200);
 }
 
 * {
@@ -223,9 +227,9 @@ header .hero .hero-btns .about {
 
 header .hero .hero-btns .about:hover {
   background: var(--red);
-  -webkit-box-shadow: 0 0 0 5px #e44e5867;
-  box-shadow: 0 0 0 5px #e44e5867;
-  color: #fff;
+  -webkit-box-shadow: 0 0 0 5px var(--blue);
+  box-shadow: 0 0 0 5px var(--blue);
+  color: #2e3031;
 }
 
 header .hero .hero-btns .projects-btn {
@@ -254,7 +258,7 @@ header .socials ul {
 
 header .socials ul li a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-size: 1.2rem;
   padding: 1.2rem;
   display: block;
@@ -330,7 +334,7 @@ header .socials ul li a:hover {
 #about .container-about .about-me h2 {
   font-size: 2.5rem;
   position: relative;
-  color: #fff;
+  color: var(--title-text);
   letter-spacing: 2px;
   padding-top: 5rem;
   width: 66%;
@@ -356,7 +360,7 @@ header .socials ul li a:hover {
   margin: 0 auto;
   padding: 2rem 0 5rem 0;
   max-width: 67%;
-  color: #c8c8c8;
+  color: var(--lighter-text);
   font-weight: bolder;
   line-height: 1.7;
 }
@@ -391,7 +395,7 @@ header .socials ul li a:hover {
 }
 
 .student-img > img {
-  border: 1px solid rgb(82, 82, 82);
+  border: 4px solid rgb(241, 241, 241);
   border-radius: 10px;
   max-width: 70%;
   max-height: 70%;
@@ -405,7 +409,7 @@ header .socials ul li a:hover {
 #projects .header h2 {
   font-size: 2.5rem;
   position: relative;
-  color: #fff;
+  color: var(--title-text);
   text-transform: capitalize;
   letter-spacing: 2px;
   width: 80%;
@@ -448,7 +452,7 @@ header .socials ul li a:hover {
   grid-template-rows: 13rem 16rem 4rem;
   grid-template-areas: "image" "text" "buttons";
   border-radius: 19px;
-  background: var(--dark-gray);
+  background: var(--card-container-background);
   text-align: center;
   margin: 2rem;
   -webkit-transition: 0.3s ease;
